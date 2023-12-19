@@ -18,7 +18,7 @@
 
 ## Play Online
 
-🌐 [Play Snake Game Online](codeberserker-snake-game-js.netlify.app)
+🌐 [Play Snake Game Online](https://codeberserker-snake-game-js.netlify.app)
 
 ## Customization
 
