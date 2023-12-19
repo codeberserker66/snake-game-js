@@ -59,7 +59,10 @@ function draw() {
 }
 
 function generateApple() {
-  return { row: randomInt(0, GRID_HEIGHT), col: randomInt(0, GRID_WIDTH) };
+  return {
+    row: randomInt(0, GRID_HEIGHT - 1),
+    col: randomInt(0, GRID_WIDTH - 1),
+  };
 }
 
 function randomInt(min, max) {
