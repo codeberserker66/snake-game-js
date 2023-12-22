@@ -3,6 +3,7 @@ const GRID_HEIGHT = 25;
 const CELL_SIZE = 24;
 const SNAKE_SPEED = 10;
 const INTERVAL = 1000 / SNAKE_SPEED;
+const GAP_SIZE = 1;
 
 const DIRECTIONS = {
   UP: { dx: 0, dy: -1 },
@@ -41,7 +42,12 @@ function drawApple() {
 function drawSnake() {
   context.fillStyle = SNAKE_COLOR;
   snake.forEach(({ row, col }) => {
-    context.fillRect(col * CELL_SIZE, row * CELL_SIZE, CELL_SIZE, CELL_SIZE);
+    context.fillRect(
+      col * CELL_SIZE,
+      row * CELL_SIZE,
+      CELL_SIZE - GAP_SIZE,
+      CELL_SIZE - GAP_SIZE
+    );
   });
 }
 
@@ -60,8 +66,8 @@ function draw() {
 
 function generateApple() {
   return {
-    row: randomInt(0, GRID_HEIGHT - 1),
-    col: randomInt(0, GRID_WIDTH - 1),
+    row: randomInt(0, GRID_HEIGHT - GAP_SIZE),
+    col: randomInt(0, GRID_WIDTH - GAP_SIZE),
   };
 }
 
