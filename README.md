@@ -1,4 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2fa9b609-908e-4982-b3df-6831ca095b90/deploy-status)](https://app.netlify.com/sites/codeberserker-snake-game-js/deploys)
 
 # Snake Game in HTML5 Canvas and JavaScript
 
@@ -21,7 +20,7 @@
 
 ## Play Online
 
-🌐 [Play Snake Game Online](https://codeberserker-snake-game-js.netlify.app)
+🌐 [Play Snake Game Online](https://codeberserker66.github.io/snake-game-js)
 
 ## Customization
 
