@@ -5,14 +5,13 @@
 
 ![Snake Game Demo](https://s13.gifyu.com/images/SjKkN.gif)
 
-## Features
-
-- **Smooth Snake Movement:** Control the snake with arrow keys and eat apples.
-- **Collision Detection:** Avoid collisions with borders and the snake's own body.
-
 ## How to Play
 
-1. Clone or download the repository.
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/codeberserker66/snake-game-js.git
+   ```
 2. Open the `index.html` file in your web browser.
 3. Use arrow keys to control the snake's direction.
 4. Eat apples to grow longer.
